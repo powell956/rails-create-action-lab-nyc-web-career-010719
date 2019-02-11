@@ -18,11 +18,11 @@ Many of the spec tests are already passing for this lab, but there are some addi
 
 When this lab is complete, your application should have the following behavior:
 
-1. User fills out the form on `students/new`
+* [ ] User fills out the form on `students/new`
 
-2. When the form is submitted, a new record is created in the database
+* [ ] When the form is submitted, a new record is created in the database
 
-3. After the user submits the form, they are redirected to the `show` page that renders the `Student` record that they created
+* [ ] After the user submits the form, they are redirected to the `show` page that renders the `Student` record that they created
 
 
 Make sure to use a route helper method to redirect to the `show` page at the end of the `create` method. You can find the correct syntax for this route by running `rake routes` in the terminal.
